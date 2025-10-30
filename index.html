@@ -260,6 +260,24 @@
     }
 
     @media (max-width: 576px) {
+	.projects-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .project {
+    padding: 18px;
+    font-size: 0.95rem;
+  }
+
+  .project h4 {
+    font-size: 1.1rem;
+  }
+
+  .project p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
       section {
         padding: 90px 20px;
       }
@@ -289,6 +307,10 @@
       footer {
         font-size: 0.8rem;
       }
+	  .contactme
+	  {
+	  display:none;
+	  }
     }
 
     @keyframes fadeIn {
@@ -368,15 +390,18 @@
         <p>Built a leave tracking system allowing employees to apply, track, and manage leaves. Integrated privileges, approval hierarchies, and attendance sync with HR modules.</p>
       </div>
     </div>
+    </div>
   </section>
 
   <!-- Contact -->
   <section id="contact" class="contact" data-aos="fade-up">
     <h3>Contact Me</h3>
     <p>Looking for a reliable ASP.NET developer for your next project or freelance work? Let’s connect!</p>
+	<div class="contactme">
     <p>Email: <a href="mailto:aishwaryajawalekar6452@gmail.com" target="_blank">aishwaryajawalekar6452@gmail.com</a></p>
     <p>GitHub: <a href="https://github.com/DerWohlstand" target="_blank">github.com/DerWohlstand</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/aishwarya-jawalekar-4a00a220a" target="_blank">linkedin.com/in/aishwarya-jawalekar-4a00a220a</a></p>
+	</div>
   </section>
 
   <footer>
